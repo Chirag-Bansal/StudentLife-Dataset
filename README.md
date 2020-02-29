@@ -33,5 +33,6 @@ When looking at the data I found that the students have very different lifestyle
 
 The results were as follows:
 ```
+Using the Random Forrest Regressor, the value of MAE was 85.13 and for Polynomial Regressor the MAE was 98.8 which is significantly lower than the previous cases thus the claim may be true.
 ```
 This shows -----
