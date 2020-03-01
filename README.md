@@ -6,11 +6,11 @@ The aim of this project was using the data of physical activity, (i.e. whether t
 
 ### Getting the Dataset
 
-I was unable to download the dataset from the darthmount website, I was however able to find the same datset in the form of R tibbles. I wrote a small script called `CreateCsv.py` to convert that to csv file .
+I was unable to download the dataset from the University of Dartmouth website, I was however able to find the same dataset in the form of R tibbles. I wrote a small script called `CreateCsv.py` to convert that to csv file .
 
 [The Link] (https://github.com/Frycast/studentlife)
 
-I have uploaded the csv file as well
+I have uploaded the csv file as well named *test.csv*
 
 ### Converting the dataset
 
@@ -18,15 +18,17 @@ The data contained the location of the students for each second in UNIX Timestam
 
 I removed the data containing activity equal to 3 which represents unknown location as that would hamper results and does not indicate anything related to the information of the student.
 
-The python file Manipulate.csv does the above mentioned task
+The python file `Manipulate.csv` does the above mentioned task
 
-The python file Manipulate.py creates two files, one file is final.csv(for training) for students 0-49 and the other is final_test.csv(for testing) for students 50-59. 
+The python file `Manipulate.py` creates two files, one file is `final.csv` (for training) for students 0-49 and the other is ` final_test.csv` (for testing) for students 50-59. 
 
-#### Data Details
+### Data Details
 
 Each file has the columns - StudentId, Day Number, Hour, Activity , Duration. Day Number denotes the day of the week(in integers i.e. 0 for sunday and 6 for saturday). Hour reprents the hour of the day in 24 hour format. 
 Acitvity has three possible values- 0,1,2 and the duration contains their corresponding values. 
 If there was no activity the duration will be 0 for that activity
+
+---
 
 Now this reduces to a regression problem, given three parameters we have to predict the duration. I have used various regression algorithms, thus I tried and tested their performance on the dataset.
 
