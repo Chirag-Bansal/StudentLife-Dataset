@@ -2,7 +2,7 @@
 
 StudentLife Dataset is a dataset that uses sensing data from the phones of students to assess their mental health , academic performance and behavioral trends
 
-The aim of this project was using the data of physical activity, (whether they are stationary, running or walking) had to predict the user's activity for the next hour. 
+The aim of this project was using the data of physical activity, (whether they are stationary, running or walking) we had to predict the user's activity for the next hour. 
 
 ### Getting the Dataset
 
@@ -68,5 +68,4 @@ For The Random Forrest Regressor, the value of MAE was 85.13
 For The Polynomial Regressor, the value of MAE was 98.8
 ```
 As the value of the MAE is significantly lower than the previous cases, using the students own data is better than to rely on the general trend. 
-*The file `TestingForStudent.py` will create the csv file and run the Random Forrest Regressor*
-*The file `PolynomialRegressorForStudent.py` will run the Polynomial Regressor*
+*The file `TestingForStudent.py` will create the csv file and run the Random Forrest Regressor. The file `PolynomialRegressorForStudent.py` will run the Polynomial Regressor*
