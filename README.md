@@ -6,7 +6,7 @@ The aim of this project was using the data of physical activity, (whether they a
 
 ### Getting the Dataset
 
-I was unable to download the dataset from the University of Dartmouth website, I was however able to find the same dataset in the form of R tibbles. I wrote a small script called `CreateCsv.py` to convert that to csv file .
+I was unable to download the dataset from the University of Dartmouth website, I was however able to find the same dataset in the form of R tibbles. I wrote a small script called `CreateCsv.py` to convert that to csv file . As I am more comfortable programming in python.
 
 [The Link] (https://github.com/Frycast/studentlife)
 
