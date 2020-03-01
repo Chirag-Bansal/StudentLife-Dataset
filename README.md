@@ -28,6 +28,12 @@ Each file has the columns - StudentId, Day Number, Hour, Activity , Duration. Da
 Acitvity has three possible values- 0,1,2 and the duration contains their corresponding values. 
 If there was no activity the duration will be 0 for that activity
 
+| Activity      | Meaning       |
+| ------------- |:-------------:| 
+| 0     | Stationary | 
+| 1      | Walking |   
+| 2 | Runnning  |
+
 ---
 
 Now this reduces to a regression problem, given three parameters we have to predict the duration. I have used various regression algorithms, thus I tried and tested their performance on the dataset.
