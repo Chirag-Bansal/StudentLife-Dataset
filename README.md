@@ -35,6 +35,11 @@ The paramter to compare models was mean absolute error (MAE)
 
 The MAE for the different models were :
 `````
+For The Random Forrest Regressor, the value of MAE was 190.22
+For The Polynomial Regressor, the value of MAE was 191.60 (Linear Regressor has a MAE of 334.12)
+For The XGBoost , the value of MAE was 190.66
+For The Decision Tree Regressor , the value of MAE was 190.23
+For The Neural net, I tried different architechtures and the best MAE was for the architechture in the code with an MAE of 186.13
 `````
 They are very similar and have almost no difference.
 
